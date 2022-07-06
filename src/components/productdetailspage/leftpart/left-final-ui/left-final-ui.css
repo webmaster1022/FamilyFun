@@ -1,0 +1,12 @@
+
+
+.leftfinaluicontainer .leftuisizetable{
+    display: none;
+  
+}
+
+@media only screen and (min-width:500px){
+    .leftfinaluicontainer .leftuisizetable{
+        display: block;
+    }
+}

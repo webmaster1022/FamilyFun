@@ -1,0 +1,176 @@
+.productdetailspage-single-product-container{
+
+    display:flex;
+    flex-direction: column;
+    width:46%;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.productdetailspage-single-product-container:hover {
+    
+    
+    box-shadow: 0 1px 3px 1px rgb(131, 130, 130);
+    transition: .3s;
+}
+
+.productdetailspage-single-product-container:hover .morebtn{
+    display:block;
+}
+
+.productdetailspage-single-product-container .image-container {
+    background: none;
+    height:auto;
+    margin-bottom: .3rem;
+    
+}
+
+.productdetailspage-single-product-container .image-container img{
+    
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+
+
+.productdetailspage-single-product-container .content-container {
+    text-align: right;  
+    display: flex;
+    flex-direction: column;
+    padding:0 .5rem;
+}
+
+.productdetailspage-single-product-container .name {
+    font-weight: 100;
+  
+   margin-bottom: .3rem;
+  
+}
+
+.productdetailspage-single-product-container .ipadpro-name{
+   
+   display:none;
+}
+
+.productdetailspage-single-product-container .price {
+    
+    color:#F7477F;
+    font-weight: 500
+
+    
+}
+
+
+
+
+.productdetailspage-single-product-container .morebtn{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50% );
+    display:none;
+    padding:.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:.3s ease;
+    color:white;
+  
+    background:white;
+    
+    box-shadow: 0 .1px .3px .3px lightgray 
+
+}
+
+.productdetailspage-single-product-container .moreIcon {
+    display:none;
+}
+
+.productdetailspage-single-product-container p{
+    color:red;
+
+}
+
+
+.productdetailspage-single-product-container .moreinfo{
+  
+
+   
+    position:fixed;
+    top:15%;
+    left:10%;
+    width:80%;
+    height:70%;
+      display:none;
+      text-align: center;
+      z-index:3;
+      
+      background:#C4B3B3;
+      
+      padding:2rem;
+      border-radius: 4px;
+
+}
+
+.productdetailspage-single-product-container .closebtn{
+
+
+font-size:1.5rem;
+position:absolute;
+cursor: pointer;
+right:1rem;
+top:1rem;
+z-index:2;
+color: #EF5D25;
+
+}
+
+.productdetailspage-single-product-container .moreinfo-details{
+
+    text-align: center;
+    color:red;
+    opacity: 1;
+
+}
+
+.productdetailspage-single-product-container .displayblock{
+    display: block;
+}
+
+
+.productdetailspage-single-product-container .displaynone{
+    display:none
+}
+
+@media only screen and (min-width:500px){
+    .productdetailspage-single-product-container{
+        padding-bottom: 1rem;
+        width:28%;
+        margin-right:1rem;
+    }
+
+    .productdetailspage-single-product-container .moreIcon{
+        display:inline-block
+    }
+
+   
+
+
+}
+
+@media only screen and (min-width:800px){
+
+    .productdetailspage-single-product-container {
+        display:block;
+        width:30%;
+        margin-right:1rem;
+        margin-bottom: 1.5rem;
+    }
+    .productdetailspage-single-product-container .ipadpro-name{
+        display:block;
+    }
+    .productdetailspage-single-product-container .mobile-name{
+        display:none;
+    }
+
+}

@@ -1,0 +1,22 @@
+.nopage-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:3rem;
+}
+
+.nopage-container .info{
+    margin-top: 1rem;
+    
+} 
+
+
+ 
+
+.nopage-container img{
+
+    width:10rem;
+   
+    max-height:100%;
+}

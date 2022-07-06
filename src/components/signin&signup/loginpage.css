@@ -1,0 +1,23 @@
+.loginpage-container {
+    margin:3rem 0;
+  
+}
+
+
+.loginpage-container .title {
+    margin:auto;
+   color:red;
+   text-align: center;
+}
+
+.loginpage-container .forgotPassword {
+    margin-top:1rem;
+
+}
+
+.loginpage-container .input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}

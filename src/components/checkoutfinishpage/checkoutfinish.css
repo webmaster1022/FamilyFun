@@ -1,0 +1,9 @@
+.checkoutfinish-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:8rem;
+    font-size: 1rem;
+
+
+}

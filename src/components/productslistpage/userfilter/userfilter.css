@@ -1,0 +1,33 @@
+.userfilter-container .morebtn, .lessbtn{
+    cursor: pointer;
+    padding:.5rem;
+    padding-bottom: 0;
+    
+}
+
+.userfilter-container .morebtn a, .lessbtn a{
+    color:red;
+    font-weight: 100;
+}
+
+.userfilter-container .displaynone {
+    display:none
+}
+
+.userfilter-container {
+    border:1px solid lightgray;
+    padding:1rem;
+    width:100%;
+    border-radius: 4px;
+}
+
+.userfilter-container .subtitle {
+    font-weight: 100;
+    padding:1rem;
+    padding-left:0;
+    
+}
+
+.userfilter-container hr{
+    margin-top:1.5rem;
+}

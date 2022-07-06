@@ -1,0 +1,20 @@
+.productslist-noresult-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:3rem;
+}
+
+
+
+.productslist-noresult-container img{
+    width:10rem;
+    max-height: 100%;
+    
+}
+
+.productslist-noresult-container .info{
+    margin-top: 2rem;
+}
+

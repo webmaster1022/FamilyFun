@@ -1,0 +1,8 @@
+.primarybutton:hover {
+
+    opacity: .9;
+    transition:.2s ease;
+    cursor: pointer;
+
+
+}

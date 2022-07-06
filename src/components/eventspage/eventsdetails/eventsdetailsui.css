@@ -1,0 +1,37 @@
+.eventdetailsui-container {
+    padding:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.eventdetailsui-container > div {
+    box-shadow: 0 1px 4px 1px lightgray;
+    padding:2rem 5rem;
+    border-radius: 3px;
+
+}
+
+.eventdetailsui-container img{
+    
+    max-height:100%;
+    max-width:100%
+}
+
+.eventdetailsui-container .title, .eventdetailsui-container .image, .eventdetailsui-container .content {
+    padding:1.5rem;
+}
+
+.eventdetailsui-container {
+    text-align: center;
+}
+
+.eventdetailsui-container .content {
+    text-align: left;
+
+}
+
+
+
+

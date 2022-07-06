@@ -1,0 +1,26 @@
+.productdetailsrightui-container {
+
+    
+    border-radius: 4px;
+    
+}
+
+.productdetailsrightui-container > div{
+
+    margin-bottom: 1rem;
+    
+
+}
+
+.productdetailsrightui-container .title{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width:500px) {
+
+    .productdetailsrightui-container .sizetable{
+        display:none;
+    }
+}
+

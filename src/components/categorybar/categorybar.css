@@ -1,0 +1,39 @@
+.head-categories{
+    display:none;
+    justify-content: center;
+    border-top: 1px solid rgb(235, 233, 233);
+    border-bottom: 1px solid rgb(235, 233, 233);  
+    margin-bottom: -1rem;  
+    margin:0 -1.5rem;
+
+}
+
+
+
+.head-categories a {
+   
+    padding: 1rem 2rem;
+    cursor: pointer;    
+    font-family: arial;
+    font-weight: 50;
+    color:rgb(82, 79, 79);
+    transition: all .5s;
+    border-bottom: 1px solid transparent;
+}
+
+.head-categories a:hover {
+    
+    border-bottom: 1px solid #EF5D25;
+}
+
+
+.head-categories .active {
+    color:blue
+
+}
+
+@media only screen and (min-width:700px) {
+    .head-categories{
+        display: flex;
+    }
+}

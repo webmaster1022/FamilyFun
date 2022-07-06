@@ -1,0 +1,160 @@
+.homepage-single-product-container{
+
+    display:flex;
+    flex-direction: column;
+    width:48%;
+    -webkit-flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    height:auto;
+    margin-bottom: 1.5rem;
+    position:relative;
+
+
+}
+
+.homepage-single-product-container .image-container {
+    background: none;
+}
+
+.homepage-single-product-container:hover {
+    
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    
+    transition: .3s;
+}
+
+.homepage-single-product-container:hover .morebtn{
+    display:block;
+}
+
+
+.homepage-single-product-container .content-container {
+    text-align: right;  
+}
+
+.homepage-single-product-container .name{
+    font-weight: 100;
+    margin-bottom: 1rem;
+    padding:.3rem;
+    padding-bottom: 0;
+}
+
+.homepage-single-product-container .price {
+    font-weight: bold;
+    color:#F7477F;
+    padding:.5rem;
+    padding-top:0;
+    
+    
+    
+}
+
+.homepage-single-product-container .reviews {
+    color:#F7477F;
+}
+
+
+.homepage-single-product-container .morebtn{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50% );
+    display:none;
+    padding:.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:.3s ease;
+    color:white;
+    background:white;
+    box-shadow: 0 .1px .3px .3px lightgray 
+}
+
+.homepage-single-product-container .morebtn p{
+    color:red;
+
+}
+
+
+
+
+.homepage-single-product-container .moreinfo{
+  
+
+   
+    position:fixed;
+    top:15%;
+    left:10%;
+    width:80%;
+    height:70%;
+      display:none;
+      text-align: center;
+      z-index:3;
+      
+      background:#C4B3B3;
+      
+      padding:2rem;
+      border-radius: 4px;
+
+}
+
+
+
+.homepage-single-product-container .closebtn{
+
+
+font-size:1.5rem;
+position:absolute;
+cursor: pointer;
+right:1rem;
+top:1rem;
+z-index:2;
+color: #EF5D25;
+
+}
+
+
+
+.homepage-single-product-container .moreinfo-details{
+
+    text-align: center;
+    color:red;
+    opacity: 1;
+
+}
+
+.homepage-single-product-container .displayblock{
+    display: block;
+}
+
+
+.homepage-single-product-container .displaynone{
+    display:none
+}
+
+.homepage-single-product-container .ipadpro-name{
+    display:none;
+}
+.homepage-single-product-container .mobile-name{
+    display:block;
+}
+
+@media only screen and (min-width:500px) {
+
+    .homepage-single-product-container{
+        width:30%
+    }
+   
+
+}
+
+@media only screen and (min-width:800px){
+    .homepage-single-product-container .ipadpro-name{
+        display:block;
+    }
+    .homepage-single-product-container .mobile-name{
+        display:none;
+    }
+  
+   
+}
